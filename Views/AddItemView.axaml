@@ -9,7 +9,8 @@
   <DockPanel>
    <Button DockPanel.Dock="Bottom" 
             HorizontalAlignment="Stretch"
-            HorizontalContentAlignment="Center">Cancel</Button>
+            HorizontalContentAlignment="Center"
+            >Cancel</Button>
     <Button DockPanel.Dock="Bottom" 
             HorizontalAlignment="Stretch"
             HorizontalContentAlignment="Center">OK</Button>

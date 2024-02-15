@@ -1,12 +1,27 @@
-﻿namespace ToDoList.Avalonia.ViewModels;
+﻿using ReactiveUI;
+
+namespace ToDoList.Avalonia.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {
+    private ViewModelBase _contentViewModel;
     public MainWindowViewModel()
     {
         var service = new ToDoListService();
         ToDoList = new ToDoListViewModel(service.GetItems());
+        _contentViewModel = ToDoList;
     }
 
     public ToDoListViewModel ToDoList { get; }
+
+    public ViewModelBase ContentViewModel
+    {
+        get => _contentViewModel;
+        private set => this.RaiseAndSetIfChanged(ref _contentViewModel, value);
+    }
+
+    public void AddItem()
+    {
+        ContentViewModel = new AddItemViewModel();
+    }
 }
