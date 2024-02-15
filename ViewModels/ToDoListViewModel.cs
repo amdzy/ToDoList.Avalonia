@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using TodoList.Avalonia.ViewModels;
 
-namespace TodoList.Avalonia;
+namespace TodoList.Avalonia.ViewModels;
 
 public class ToDoListViewModel : ViewModelBase
 {
