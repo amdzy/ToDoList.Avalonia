@@ -10,10 +10,11 @@
    <Button DockPanel.Dock="Bottom" 
             HorizontalAlignment="Stretch"
             HorizontalContentAlignment="Center"
-            >Cancel</Button>
+            Command="{Binding CloseCommand}">Cancel</Button>
     <Button DockPanel.Dock="Bottom" 
             HorizontalAlignment="Stretch"
-            HorizontalContentAlignment="Center">OK</Button>
+            HorizontalContentAlignment="Center"
+            Command="{Binding OkCommand}">OK</Button>
    <TextBox AcceptsReturn="True"
              Text="{Binding Description}"
              Watermark="Enter your to do item"/>
