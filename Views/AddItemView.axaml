@@ -7,6 +7,14 @@
              x:Class="ToDoList.Avalonia.Views.AddItemView"
              x:DataType="vm:AddItemViewModel">
   <DockPanel>
-   
+   <Button DockPanel.Dock="Bottom" 
+            HorizontalAlignment="Stretch"
+            HorizontalContentAlignment="Center">Cancel</Button>
+    <Button DockPanel.Dock="Bottom" 
+            HorizontalAlignment="Stretch"
+            HorizontalContentAlignment="Center">OK</Button>
+   <TextBox AcceptsReturn="True"
+             Text="{Binding Description}"
+             Watermark="Enter your to do item"/>
   </DockPanel>
 </UserControl>
