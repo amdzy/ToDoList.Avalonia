@@ -1,4 +1,4 @@
-﻿namespace TodoList.Avalonia.ViewModels;
+﻿namespace ToDoList.Avalonia.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {

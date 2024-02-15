@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using TodoList.Avalonia.ViewModels;
-using TodoList.Avalonia.Views;
+using ToDoList.Avalonia.ViewModels;
+using ToDoList.Avalonia.Views;
 
-namespace TodoList.Avalonia;
+namespace ToDoList.Avalonia;
 
 public partial class App : Application
 {

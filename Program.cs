@@ -2,7 +2,7 @@
 using Avalonia.ReactiveUI;
 using System;
 
-namespace TodoList.Avalonia;
+namespace ToDoList.Avalonia;
 
 sealed class Program
 {

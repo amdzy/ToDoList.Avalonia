@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/TodoList.Avalonia.csproj",
+                "${workspaceFolder}/ToDoList.Avalonia.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/TodoList.Avalonia.csproj",
+                "${workspaceFolder}/ToDoList.Avalonia.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/TodoList.Avalonia.csproj"
+                "${workspaceFolder}/ToDoList.Avalonia.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

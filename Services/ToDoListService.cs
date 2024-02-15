@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TodoList.Avalonia;
+namespace ToDoList.Avalonia;
 
 public class ToDoListService
 {

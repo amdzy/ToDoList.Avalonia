@@ -1,6 +1,6 @@
 ﻿using ReactiveUI;
 
-namespace TodoList.Avalonia.ViewModels;
+namespace ToDoList.Avalonia.ViewModels;
 
 public class ViewModelBase : ReactiveObject
 {

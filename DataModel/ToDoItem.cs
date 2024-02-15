@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TodoList.Avalonia;
+namespace ToDoList.Avalonia;
 
 public class ToDoItem
 {
