@@ -10,7 +10,7 @@
    <Button DockPanel.Dock="Bottom" 
             HorizontalAlignment="Stretch"
             HorizontalContentAlignment="Center"
-            Command="{Binding CloseCommand}">Cancel</Button>
+            Command="{Binding CancelCommand}">Cancel</Button>
     <Button DockPanel.Dock="Bottom" 
             HorizontalAlignment="Stretch"
             HorizontalContentAlignment="Center"
