@@ -7,10 +7,16 @@ namespace ToDoList.Avalonia.ViewModels;
 public class MainWindowViewModel : ViewModelBase
 {
     private ViewModelBase _contentViewModel;
+
+    private ToDoListService _toDoListService;
     public MainWindowViewModel()
     {
-        var service = new ToDoListService();
-        ToDoList = new ToDoListViewModel(service.GetItems());
+        _toDoListService = new ToDoListService();
+        ToDoList = new ToDoListViewModel(_toDoListService.GetItems());
+        ToDoList.ListItems.CollectionChanged += (obj, e) =>
+        {
+            ToDoListService.UpdateItems(ToDoList.ListItems);
+        };
         _contentViewModel = ToDoList;
     }
 
