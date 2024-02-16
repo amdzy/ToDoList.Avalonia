@@ -8,6 +8,7 @@
         x:Class="ToDoList.Avalonia.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
+        Width="350" Height="450"
         Title="Avalonia To Do List"
         Content="{Binding ContentViewModel}">
 </Window>
