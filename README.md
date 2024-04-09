@@ -15,7 +15,7 @@ To run ToDoList.Avalonia on your local machine, follow these steps:
 1. **Clone the Repository**:
 
 ```bash
- git clone https://github.com/your-username/ToDoList.Avalonia.git
+ git clone https://github.com/amdzy/ToDoList.Avalonia.git
 ```
 
 2. **Navigate to the Directory**:
